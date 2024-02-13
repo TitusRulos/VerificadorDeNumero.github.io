@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./img/3420399.png">
+</head>
+<body>
+  <div id="container" >
+    <h2>Verificar numero</h2>
+    <label for="numeroinput">Ingrese número:</label>
+    <input type="text" id="numeroinput" placeholder="Ingrese número">
+    <button id="verifyBtn" onclick="generar_verificador()">Generar Verificador</button>
+    <button id="verifyBtn" onclick="mostrarListado()">Lista número verficador</button>
+    <ul id="listado" style="display: none;"></ul>
+    <div id="sospechososcontainer">
+    <p id="result"></p>
+  </div>
+  <script src="./ejercicios.js"></script>
+</body>
+</html>
